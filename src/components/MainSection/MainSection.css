@@ -1,0 +1,40 @@
+.main-container{
+    background: url('../../images/tren.jpg') center center/cover no-repeat;
+    height:100vh;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit:contain;
+    margin-top:-80px;
+}
+.main-container > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top:0px;
+}
+.main-container > p {
+    margin-top: 8  px;
+    color: #fff;
+    font-size: 32px;
+}
+@media screen and (max-width:960px){
+    .main-container > h1{
+        font-size:70px;
+        text-align: center;
+    }
+    .main-container > p{
+        font-size:30px;
+    }
+}
+@media screen and (max-width:768){
+    .main-container > h1{
+        font-size:60px;
+        text-align: center;
+    }
+    .main-container > p{
+        font-size:30px;
+    }
+}
